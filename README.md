@@ -34,7 +34,7 @@ yarn dev
 
 ## Production
 
-The production server runs at [https://kjxbyz.com/portal](https://kjxbyz.com/portal)
+The production server runs at [https://kjxbyz.com/flutter-fleet](https://kjxbyz.com/flutter-fleet)
 
 Build the application for production:
 
