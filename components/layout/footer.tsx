@@ -40,7 +40,7 @@ export default function Footer(props: LngProps) {
           {t("terms-of-use")}
         </Link>
       </p>
-      <span className="mt-2 flex flex-wrap items-center justify-center text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+      <span className="mt-2 flex flex-wrap items-center justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © {`2023${fullYear === 2023 ? "" : `-${fullYear}`}`}&nbsp;
         <a
           href="https://www.kjxbyz.com/flutter-fleet"

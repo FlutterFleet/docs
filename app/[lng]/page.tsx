@@ -111,7 +111,7 @@ const features = [
   {
     title: "Alipay Flutter",
     description:
-      "Alipay for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/alipay_flutter)",
+      "Alipay for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/alipay_flutter)",
     demo: (
       <SiAlipay className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -121,7 +121,7 @@ const features = [
   {
     title: "Aliyun OSS",
     description:
-      "Aliyun OSS API for Dart. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/aliyun_oss)",
+      "Aliyun OSS API for Dart. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/aliyun_oss)",
     demo: (
       <SiAlibabacloud className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -131,7 +131,7 @@ const features = [
   {
     title: "DxCaptcha Flutter",
     description:
-      "Dingxiang Captcha for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/dxcaptcha_flutter)",
+      "Dingxiang Captcha for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/dxcaptcha_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -141,7 +141,7 @@ const features = [
   {
     title: "HCaptcha Flutter",
     description:
-      "HCaptcha for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/hcaptcha_flutter)",
+      "HCaptcha for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/hcaptcha_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -150,7 +150,7 @@ const features = [
   {
     title: "JPush Flutter",
     description:
-      "JPush for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/jpush_flutter)",
+      "JPush for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/jpush_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -159,7 +159,7 @@ const features = [
   {
     title: "JVerify Flutter",
     description:
-      "JVerification for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/jverify_flutter)",
+      "JVerification for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/jverify_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -169,7 +169,7 @@ const features = [
   {
     title: "UShare Flutter",
     description:
-      "UShare for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/ushare_flutter)",
+      "UShare for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/ushare_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -179,7 +179,7 @@ const features = [
   {
     title: "WeChat Flutter",
     description:
-      "WeChat for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/wechat_flutter)",
+      "WeChat for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/wechat_flutter)",
     demo: (
       <FaWeixin className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -188,7 +188,7 @@ const features = [
   {
     title: "Weibo Flutter",
     description:
-      "Weibo for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/weibo_flutter)",
+      "Weibo for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/weibo_flutter)",
     demo: (
       <FaWeibo className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
