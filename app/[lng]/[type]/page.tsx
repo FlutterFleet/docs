@@ -27,7 +27,7 @@ export default async function Blog({
 }: {
   params: { lng: string; type: string };
 }) {
-  if (!["blog", "legal"].includes(params.type)) return notFound();
+  if (!["blog", "docs", "legal"].includes(params.type)) return notFound();
 
   // Sort posts by date
   const posts = allPosts
