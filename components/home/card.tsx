@@ -27,7 +27,7 @@ export default function Card({
       <div className="relative col-span-1 h-96 overflow-hidden rounded-xl border border-gray-200 hover:shadow-md dark:border-gray-700 dark:hover:shadow-gray-700">
         <div className="flex h-60 items-center justify-center">{demo}</div>
         <div className="mx-auto max-w-md text-center">
-          <h2 className="bg-clip-text font-display text-xl font-bold text-black/80 dark:text-white/80 md:text-3xl md:font-normal">
+          <h2 className="bg-clip-text font-display text-xl font-bold text-black/80 md:text-3xl md:font-normal dark:text-white/80">
             <Balancer>{title}</Balancer>
           </h2>
           <div className="prose-sm -mt-2 leading-normal text-gray-500 md:prose dark:text-white/80">
@@ -45,9 +45,13 @@ export default function Card({
                   code: ({ node, ...props }) => (
                     <code
                       {...props}
-                      // @ts-ignore (to fix "Received `true` for a non-boolean attribute `inline`." warning)
-                      inline="true"
                       className="rounded-sm bg-gray-100 px-1 py-0.5 font-mono font-medium text-gray-800 dark:bg-gray-700"
+                    />
+                  ),
+                  p: ({ node, ...props }) => (
+                    <p
+                      {...props}
+                      className="flex flex-col items-center prose-img:mb-0 prose-img:mt-4"
                     />
                   ),
                 }}
