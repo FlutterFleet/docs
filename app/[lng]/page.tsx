@@ -2,10 +2,8 @@
 import Balancer from "react-wrap-balancer";
 import { RoughNotation } from "react-rough-notation";
 import { Github } from "@/components/shared/icons";
-import { SiViber, SiNextdotjs, SiNuxtdotjs, SiTauri } from "react-icons/si";
-import { FiMusic, FiVideo } from "react-icons/fi";
-import { AiOutlineAudio } from "react-icons/ai";
-import { FaBlog } from "react-icons/fa";
+import { SiAlipay, SiAlibabacloud, SiFlutter } from "react-icons/si";
+import { FaBlog, FaWeibo, FaWeixin } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
@@ -54,7 +52,7 @@ export default function Home({
           />
         </div>
         <h1
-          className="animate-fade-up bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-black/80 opacity-0 drop-shadow-sm dark:text-white/80 md:text-7xl md:leading-[5rem]"
+          className="animate-fade-up bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-black/80 opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem] dark:text-white/80"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
           <Balancer>{t("title")}</Balancer>
@@ -72,9 +70,8 @@ export default function Home({
               animationDelay={1000}
               animationDuration={2500}
             >
-              Plugins for Flutter
+              Plugins for Flutter.
             </RoughNotation>
-            .
           </Balancer>
         </p>
         <div
@@ -112,91 +109,89 @@ export default function Home({
 
 const features = [
   {
-    title: "YTMusic",
-    description: "An unofficial YouTube music desktop client.",
+    title: "Alipay Flutter",
+    description:
+      "Alipay for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/alipay_flutter)",
     demo: (
-      <FiMusic className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <SiAlipay className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://kjxbyz.com/ytmusic",
+    url: "/docs/alipay-flutter",
     large: false,
   },
   {
-    title: "Viber",
-    description: "A social application that supports web, desktop and mobile.",
+    title: "Aliyun OSS",
+    description:
+      "Aliyun OSS API for Dart. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/aliyun_oss)",
     demo: (
-      <SiViber className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <SiAlibabacloud className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://kjxbyz.com/viber",
-  },
-  {
-    title: "DS Audio",
-    description: "A music application for managing music on Synology NAS.",
-    demo: (
-      <AiOutlineAudio className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
-    ),
-    url: "https://kjxbyz.com/dsaudio",
-  },
-  {
-    title: "DS Video",
-    description: "A video application for managing videos on Synology NAS.",
-    demo: (
-      <FiVideo className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
-    ),
-    url: "https://kjxbyz.com/dsvideo",
+    url: "/docs/aliyun-oss",
     large: false,
   },
   {
-    title: "Next Starter",
-    description: "Next Starter",
+    title: "DxCaptcha Flutter",
+    description:
+      "Dingxiang Captcha for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/dxcaptcha_flutter)",
     demo: (
-      <SiNextdotjs className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://www.kjxbyz.com/starter/next",
+    url: "/docs/dxcaptcha-flutter",
     large: false,
   },
   {
-    title: "Nuxt Starter",
-    description: "Nuxt Starter",
+    title: "HCaptcha Flutter",
+    description:
+      "HCaptcha for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/hcaptcha_flutter)",
     demo: (
-      <SiNuxtdotjs className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://www.kjxbyz.com/starter/nuxt",
+    url: "/docs/hcaptcha-flutter",
+  },
+  {
+    title: "JPush Flutter",
+    description:
+      "JPush for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/jpush_flutter)",
+    demo: (
+      <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+    ),
+    url: "/docs/jpush-flutter",
+  },
+  {
+    title: "JVerify Flutter",
+    description:
+      "JVerification for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/jverify_flutter)",
+    demo: (
+      <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+    ),
+    url: "/docs/jverify-flutter",
     large: false,
   },
   {
-    title: "Next Admin Starter",
-    description: "Next Admin Starter",
+    title: "UShare Flutter",
+    description:
+      "UShare for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/ushare_flutter)",
     demo: (
-      <SiNextdotjs className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://www.kjxbyz.com/starter/next/admin",
+    url: "/docs/ushare-flutter",
     large: false,
   },
   {
-    title: "Nuxt Admin Starter",
-    description: "Nuxt Admin Starter",
+    title: "WeChat Flutter",
+    description:
+      "WeChat for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/wechat_flutter)",
     demo: (
-      <SiNuxtdotjs className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <FaWeixin className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://www.kjxbyz.com/starter/nuxt/admin",
-    large: false,
+    url: "/docs/wechat-flutter",
   },
   {
-    title: "Nuxt Test",
-    description: "Nuxt Test",
+    title: "Weibo Flutter",
+    description:
+      "Weibo for Flutter. ![GitHub release](https://img.shields.io/github/v/release/FlutterFleet/weibo_flutter)",
     demo: (
-      <SiNuxtdotjs className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+      <FaWeibo className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
-    url: "https://www.kjxbyz.com/nuxt-test",
-    large: false,
-  },
-  {
-    title: "Tauri Test",
-    description: "Tauri Test",
-    demo: (
-      <SiTauri className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
-    ),
-    url: "https://github.com/kjxbyz/tauri-test",
-    large: false,
+    url: "/docs/weibo-flutter",
   },
 ];
