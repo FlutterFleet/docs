@@ -1,6 +1,6 @@
 # flutter-fleet
 
-[![CodeFactor](https://www.codefactor.io/repository/github/kjxbyz/flutter-fleet/badge)](https://www.codefactor.io/repository/github/kjxbyz/flutter-fleet)
+[![CodeFactor](https://www.codefactor.io/repository/github/FlutterFleet/docs/badge)](https://www.codefactor.io/repository/github/FlutterFleet/docs)
 
 ## Setup
 
