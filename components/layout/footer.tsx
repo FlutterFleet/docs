@@ -16,7 +16,7 @@ export default function Footer(props: LngProps) {
       {/*  {t("footer")}{" "}*/}
       {/*  <a*/}
       {/*    className="font-medium text-gray-800 underline transition-colors dark:text-white/90"*/}
-      {/*    href="https://github.com/kjxbyz/flutter-fleet"*/}
+      {/*    href="https://github.com/FlutterFleet/docs"*/}
       {/*    target="_blank"*/}
       {/*    rel="noopener noreferrer"*/}
       {/*  >*/}
@@ -40,10 +40,10 @@ export default function Footer(props: LngProps) {
           {t("terms-of-use")}
         </Link>
       </p>
-      <span className="mt-2 flex flex-wrap items-center justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <span className="mt-2 flex flex-wrap items-center justify-center text-sm text-gray-500 dark:text-gray-400 sm:text-center">
         © {`2023${fullYear === 2023 ? "" : `-${fullYear}`}`}&nbsp;
         <a
-          href="https://www.kjxbyz.com/flutter-fleet"
+          href="https://www.kjxbyz.com/flutterfleet"
           className="hover:underline"
         >
           {th("title")}
@@ -52,7 +52,7 @@ export default function Footer(props: LngProps) {
         {process.env.VERCEL_GIT_COMMIT_SHA && (
           <p className="flex items-center justify-center">
             <a
-              href={`https://github.com/kjxbyz/flutter-fleet/commit/${process.env.VERCEL_GIT_COMMIT_SHA}`}
+              href={`https://github.com/FlutterFleet/docs/commit/${process.env.VERCEL_GIT_COMMIT_SHA}`}
               target="_blank"
               className="hover:underline"
               rel="noreferrer"

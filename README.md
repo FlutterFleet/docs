@@ -1,4 +1,4 @@
-# flutter-fleet
+# Flutter Fleet
 
 [![CodeFactor](https://www.codefactor.io/repository/github/FlutterFleet/docs/badge)](https://www.codefactor.io/repository/github/FlutterFleet/docs)
 
@@ -34,7 +34,7 @@ yarn dev
 
 ## Production
 
-The production server runs at [https://kjxbyz.com/flutter-fleet](https://kjxbyz.com/flutter-fleet)
+The production server runs at [https://kjxbyz.com/flutterfleet](https://kjxbyz.com/flutterfleet)
 
 Build the application for production:
 
