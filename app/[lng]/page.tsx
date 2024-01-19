@@ -3,7 +3,7 @@ import Balancer from "react-wrap-balancer";
 import { RoughNotation } from "react-rough-notation";
 import { Github } from "@/components/shared/icons";
 import { SiAlipay, SiAlibabacloud, SiFlutter } from "react-icons/si";
-import { FaBlog, FaWeibo, FaWeixin } from "react-icons/fa";
+import { FaBlog, FaWeibo, FaWeixin, FaAws } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
@@ -52,7 +52,7 @@ export default function Home({
           />
         </div>
         <h1
-          className="animate-fade-up bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-black/80 opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem] dark:text-white/80"
+          className="animate-fade-up bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-black/80 opacity-0 drop-shadow-sm dark:text-white/80 md:text-7xl md:leading-[5rem]"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
           <Balancer>{t("title")}</Balancer>
@@ -126,6 +126,16 @@ const features = [
       <SiAlibabacloud className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
     url: "/docs/aliyun-oss",
+    large: false,
+  },
+  {
+    title: "AWS S3",
+    description:
+      "AWS S3 API for Dart. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/minio)",
+    demo: (
+      <FaAws className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
+    ),
+    url: "/docs/minio",
     large: false,
   },
   {
